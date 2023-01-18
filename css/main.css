@@ -1,0 +1,240 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px!important;
+}
+
+.Menu-principal {
+    width: 100%;
+    background-color: #252323;
+    height: 70px;
+}
+main, .content {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.text-destaque p {
+    color: #9a9a9a;
+    text-align: center;
+
+}
+.text-destaque {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+}
+
+.text-destaque h1 {
+    color: #000
+}
+.text-destaque strong {
+    color:#25AAE2;
+}
+
+.logoab {
+    margin-top: auto;
+    margin-bottom: auto;   
+    width: 70%;
+    float: left;  
+}
+.redesociais ul li {
+    display: inline-block;
+    
+
+}
+.redesociais {
+    width: 20%;
+    float: right;
+}
+
+.retangulo-1{
+    background-color: #252323;
+}
+
+.retangulo2 {
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 15px;
+}
+.bottonborder {
+    border-bottom: 3px solid #252323;
+    height: 80px;
+}
+
+.border {
+    border-top: 3px solid #252323;
+    height: 100px;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 16px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    
+}
+.menu ul li:hover{
+    border-bottom: 2px solid #25AAE2;
+}
+
+.menu ul li a:hover{
+    color: #25AAE2;
+    
+
+}
+
+.menu ul li a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+
+}
+.menu {
+    width: 70%;
+    float:left;
+}
+.pesquisa{
+    width: 30%;
+    float: right;
+    text-align: center;
+}
+.pesquisa input {
+    margin-top: 8px;
+    padding: 8px;
+    height: 20px;
+    border: 1px solid #d6d6d6
+}
+
+.paginatd{
+    width: 100%;
+    float: left;
+    
+
+}
+
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 130px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/prev.png');
+    position: absolute;
+    top:73%;
+    left: 10%;
+}
+
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 64px;
+    height: 130px;
+    z-index: 9;
+    background-color: transparent;
+    background-image: url('../img/prox.png');
+    position: absolute;
+    top:73%;
+    right: 10%;
+}
+.slider-principal {
+    width: 100%;
+}
+.slick-initialized {
+    overflow: hidden;
+}
+
+.slick-dots li button {
+    font-size: 0px;
+    border: 3px solid #000;
+    width: 22px;
+    height: 22px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 47%;
+    top: 750px;
+
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+}
+
+li.slick-active button{
+    background: #25AAE2;
+
+}
+
+.paginat {
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px; 
+    width: 29%;
+    float: left;
+    position: relative;
+    padding: 10px;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    
+}
+.bloco-imagens-texto{
+    color:#ffffff;
+}
+
+.bloco-imagem {
+    height: 300px ;
+    border: 1px solid #c5c5c5;
+    padding-top: 15px;
+    padding-bottom: 15px;
+
+    
+}
+.bloco-imagem b, p {
+    text-align: left;
+}
+.bloco-texto {
+    margin-top: 3em;
+    margin-left: 25px;
+   
+}
+
+h3 {
+    font-weight: normal!important;
+    
+}
+
+.bloco-imagens-texto {
+    background-color: #252323;
+}
+
+a {
+    color: inherit;
+}
+
+.Posts{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    color:#ffffff;
+
+}
