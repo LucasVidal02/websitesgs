@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="./css/main.css">
+    <link rel="stylesheet" type="text/css" href="./css/Contato.css">
+    <title>Entre em contato! </title>
+</head>
+
+<body>
+    <header class="Menu-principal">
+        <main>
+            <div class="retangulo-1">
+                <div class="logoab">
+                    <a href="index.html"><img src="./img/logo blog.png" /></a>
+                </div>
+            </div>
+        </main>
+    </header>
+    <main class="paginatd bottonborder">
+        <div class="retangulo2">
+            <div class="menu">
+                <ul>
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="Contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+
+    <div class="formcenter">
+        <div class="paginatd">
+            <h1 id="titulo">Nos mande uma mensagem!</h1>
+            <p id="subtitulo">Complete suas informações</p>
+            <br>
+        </div>
+
+        <form class="paginatd">
+
+            <fieldset class="grupo">
+                <div class="campo">
+                    <label for="nome"><strong>Nome Completo</strong></label>
+                    <input type="text" name="nome" id="nome" required>
+                </div>
+
+            </fieldset>
+
+            <div class="campo">
+                <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="campo">
+                <label><strong>Apenas por curiosidade, Qual sua Empresa favorita?</strong></label>
+                <label>
+                    <input type="radio" name="empresa" value="Embraer" checked>Embraer
+                </label>
+                <label>
+                    <input type="radio" name="empresa" value="Airbus">Airbus
+                </label>
+                <label>
+                    <input type="radio" name="empresa" value="Boeing">Boeing
+                </label>
+            </div>
+
+            <fieldset class="grupo">
+
+                <div id="check">
+                    <label><strong>Selecione o que você menos gosta em um voo?</strong></label><br><br>
+                    <input type="checkbox" id="voo1" name="voo1" value="Turbulências">
+                    <label for="voo1"> Turbulências</label>
+                    <input type="checkbox" id="voo2" name="voo2" value="Espaço das cadeiras">
+                    <label for="voo2"> Espaço das cadeiras</label>
+                    <input type="checkbox" id="voo3" name="voo3" value="Serviços de bordo">
+                    <label for="voo3"> Serviços de bordo</label>
+                    <input type="checkbox" id="voo4" name="voo4" value="Despressurização (Dor no ouvido)">
+                    <label for="voo4"> Despressurização (Dor no ouvido)</label>
+                    <input type="checkbox" id="voo5" name="voo5" value="Grande Quantidade de Escalas">
+                    <label for="voo5"> Grande Quantidade de Escalas</label>
+                    <input type="checkbox" id="voo6" name="voo6" value="Grande Tempo de Voo">
+                    <label for="voo6"> Grande Tempo de Voo</label>
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <br>
+                <label for="mensagem"><strong>Nos mande uma mensagem ou perguntas! </strong></label>
+                <textarea rows="6" style="width: 26em" id="mensagem" name="mensagem"></textarea>
+            </div>
+
+            <button class="botao" type="submit" onsubmit="">Enviar</button>
+
+        </form>
+    </div>
+    <div class="retangulo-1 ">
+        <div class="logoab">
+            <a href="index.html"><img src="./img/logo blog.png" /></a>
+        </div>
+
+</body>
+
+</html>
